@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  background-image: url(iconn/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+input {
+}
+#NAV {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+#NAV a {
+  margin-right: 15px;
+  margin-top: 11px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+#NAV img {
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+  border-radius: 20px;
+}
+
+#logo img {
+  width: 350px;
+  margin-left: 29rem;
+  margin-top: 4rem;
+}
+
+#searchbarbox {
+  margin-top: 20px;
+  margin-left: 400px;
+  text-align: center;
+  background: #eee;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  width: 470px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(68, 40, 3);
+  box-shadow: 5px 5px 5px;
+  cursor: pointer;
+}
+
+#searchbarbox button img {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#searchbarbox button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#searchbar {
+  padding-top: 13px;
+  padding-bottom: 10px;
+  outline: 0;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.863);
+}
+
+#shortcutbox {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#shortcutbox img {
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-radius: 40px;
+  border-width: 10px;
+  padding: 15px 15px;
+  cursor: pointer;
+  background: rgb(194, 194, 194);
+}
+
+.yt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+b {
+  margin-top: 20px;
+  background: rgb(194, 194, 194);
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
